@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <!-- Short name for the actual class path -->
+        <typeAlias type="com.ashish.BooksUpdateProject.model.BookDetails" alias="book"/>
+    </typeAliases>
+
+    <mappers>
+        <!-- To tell where the mapper is located -->
+        <mapper resource="BookMapper.xml"/>
+    </mappers>
+
+
+</configuration>
